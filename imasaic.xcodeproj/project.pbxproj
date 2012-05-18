@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63ED1F1B1566978900FF96B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ED1F1A1566978900FF96B9 /* UIKit.framework */; };
+		63ED1F1D1566978900FF96B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ED1F1C1566978900FF96B9 /* Foundation.framework */; };
+		63ED1F1F1566978900FF96B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ED1F1E1566978900FF96B9 /* CoreGraphics.framework */; };
+		63ED1F251566978900FF96B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63ED1F231566978900FF96B9 /* InfoPlist.strings */; };
+		63ED1F271566978900FF96B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED1F261566978900FF96B9 /* main.m */; };
+		63ED1F2B1566978900FF96B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED1F2A1566978900FF96B9 /* AppDelegate.m */; };
+		63ED1F331566978900FF96B9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ED1F321566978900FF96B9 /* SenTestingKit.framework */; };
+		63ED1F341566978900FF96B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ED1F1A1566978900FF96B9 /* UIKit.framework */; };
+		63ED1F351566978900FF96B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ED1F1C1566978900FF96B9 /* Foundation.framework */; };
+		63ED1F3D1566978900FF96B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63ED1F3B1566978900FF96B9 /* InfoPlist.strings */; };
+		63ED1F401566978900FF96B9 /* imasaicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED1F3F1566978900FF96B9 /* imasaicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63ED1F361566978900FF96B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63ED1F0D1566978900FF96B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63ED1F151566978900FF96B9;
+			remoteInfo = imasaic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63ED1F161566978900FF96B9 /* imasaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imasaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ED1F1A1566978900FF96B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63ED1F1C1566978900FF96B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63ED1F1E1566978900FF96B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63ED1F221566978900FF96B9 /* imasaic-Info.plist */ = {isa = PBXFileReference; path = "imasaic-Info.plist"; sourceTree = "<group>"; };
+		63ED1F241566978900FF96B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63ED1F261566978900FF96B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63ED1F281566978900FF96B9 /* imasaic-Prefix.pch */ = {isa = PBXFileReference; path = "imasaic-Prefix.pch"; sourceTree = "<group>"; };
+		63ED1F291566978900FF96B9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		63ED1F2A1566978900FF96B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63ED1F311566978900FF96B9 /* imasaicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imasaicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ED1F321566978900FF96B9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		63ED1F3A1566978900FF96B9 /* imasaicTests-Info.plist */ = {isa = PBXFileReference; path = "imasaicTests-Info.plist"; sourceTree = "<group>"; };
+		63ED1F3C1566978900FF96B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63ED1F3E1566978900FF96B9 /* imasaicTests.h */ = {isa = PBXFileReference; path = imasaicTests.h; sourceTree = "<group>"; };
+		63ED1F3F1566978900FF96B9 /* imasaicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imasaicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63ED1F131566978900FF96B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED1F1B1566978900FF96B9 /* UIKit.framework in Frameworks */,
+				63ED1F1D1566978900FF96B9 /* Foundation.framework in Frameworks */,
+				63ED1F1F1566978900FF96B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ED1F2D1566978900FF96B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED1F331566978900FF96B9 /* SenTestingKit.framework in Frameworks */,
+				63ED1F341566978900FF96B9 /* UIKit.framework in Frameworks */,
+				63ED1F351566978900FF96B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63ED1F0B1566978900FF96B9 = {
+			isa = PBXGroup;
+			children = (
+				63ED1F201566978900FF96B9 /* imasaic */,
+				63ED1F381566978900FF96B9 /* imasaicTests */,
+				63ED1F191566978900FF96B9 /* Frameworks */,
+				63ED1F171566978900FF96B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63ED1F171566978900FF96B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63ED1F161566978900FF96B9 /* imasaic.app */,
+				63ED1F311566978900FF96B9 /* imasaicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63ED1F191566978900FF96B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63ED1F1A1566978900FF96B9 /* UIKit.framework */,
+				63ED1F1C1566978900FF96B9 /* Foundation.framework */,
+				63ED1F1E1566978900FF96B9 /* CoreGraphics.framework */,
+				63ED1F321566978900FF96B9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63ED1F201566978900FF96B9 /* imasaic */ = {
+			isa = PBXGroup;
+			children = (
+				63ED1F291566978900FF96B9 /* AppDelegate.h */,
+				63ED1F2A1566978900FF96B9 /* AppDelegate.m */,
+				63ED1F211566978900FF96B9 /* Supporting Files */,
+			);
+			path = imasaic;
+			sourceTree = "<group>";
+		};
+		63ED1F211566978900FF96B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63ED1F221566978900FF96B9 /* imasaic-Info.plist */,
+				63ED1F231566978900FF96B9 /* InfoPlist.strings */,
+				63ED1F261566978900FF96B9 /* main.m */,
+				63ED1F281566978900FF96B9 /* imasaic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63ED1F381566978900FF96B9 /* imasaicTests */ = {
+			isa = PBXGroup;
+			children = (
+				63ED1F3E1566978900FF96B9 /* imasaicTests.h */,
+				63ED1F3F1566978900FF96B9 /* imasaicTests.m */,
+				63ED1F391566978900FF96B9 /* Supporting Files */,
+			);
+			path = imasaicTests;
+			sourceTree = "<group>";
+		};
+		63ED1F391566978900FF96B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63ED1F3A1566978900FF96B9 /* imasaicTests-Info.plist */,
+				63ED1F3B1566978900FF96B9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63ED1F151566978900FF96B9 /* imasaic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ED1F431566978900FF96B9 /* Build configuration list for PBXNativeTarget "imasaic" */;
+			buildPhases = (
+				63ED1F121566978900FF96B9 /* Sources */,
+				63ED1F131566978900FF96B9 /* Frameworks */,
+				63ED1F141566978900FF96B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imasaic;
+			productName = imasaic;
+			productReference = 63ED1F161566978900FF96B9 /* imasaic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63ED1F301566978900FF96B9 /* imasaicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ED1F461566978900FF96B9 /* Build configuration list for PBXNativeTarget "imasaicTests" */;
+			buildPhases = (
+				63ED1F2C1566978900FF96B9 /* Sources */,
+				63ED1F2D1566978900FF96B9 /* Frameworks */,
+				63ED1F2E1566978900FF96B9 /* Resources */,
+				63ED1F2F1566978900FF96B9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63ED1F371566978900FF96B9 /* PBXTargetDependency */,
+			);
+			name = imasaicTests;
+			productName = imasaicTests;
+			productReference = 63ED1F311566978900FF96B9 /* imasaicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63ED1F0D1566978900FF96B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 63ED1F101566978900FF96B9 /* Build configuration list for PBXProject "imasaic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63ED1F0B1566978900FF96B9;
+			productRefGroup = 63ED1F171566978900FF96B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63ED1F151566978900FF96B9 /* imasaic */,
+				63ED1F301566978900FF96B9 /* imasaicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63ED1F141566978900FF96B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED1F251566978900FF96B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ED1F2E1566978900FF96B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED1F3D1566978900FF96B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63ED1F2F1566978900FF96B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63ED1F121566978900FF96B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED1F271566978900FF96B9 /* main.m in Sources */,
+				63ED1F2B1566978900FF96B9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ED1F2C1566978900FF96B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED1F401566978900FF96B9 /* imasaicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63ED1F371566978900FF96B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63ED1F151566978900FF96B9 /* imasaic */;
+			targetProxy = 63ED1F361566978900FF96B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63ED1F231566978900FF96B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ED1F241566978900FF96B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63ED1F3B1566978900FF96B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ED1F3C1566978900FF96B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63ED1F411566978900FF96B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63ED1F421566978900FF96B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63ED1F441566978900FF96B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imasaic/imasaic-Prefix.pch";
+				INFOPLIST_FILE = "imasaic/imasaic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63ED1F451566978900FF96B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imasaic/imasaic-Prefix.pch";
+				INFOPLIST_FILE = "imasaic/imasaic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63ED1F471566978900FF96B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imasaic.app/imasaic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imasaic/imasaic-Prefix.pch";
+				INFOPLIST_FILE = "imasaicTests/imasaicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		63ED1F481566978900FF96B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/imasaic.app/imasaic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imasaic/imasaic-Prefix.pch";
+				INFOPLIST_FILE = "imasaicTests/imasaicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63ED1F101566978900FF96B9 /* Build configuration list for PBXProject "imasaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ED1F411566978900FF96B9 /* Debug */,
+				63ED1F421566978900FF96B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63ED1F431566978900FF96B9 /* Build configuration list for PBXNativeTarget "imasaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ED1F441566978900FF96B9 /* Debug */,
+				63ED1F451566978900FF96B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63ED1F461566978900FF96B9 /* Build configuration list for PBXNativeTarget "imasaicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ED1F471566978900FF96B9 /* Debug */,
+				63ED1F481566978900FF96B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63ED1F0D1566978900FF96B9 /* Project object */;
+}
