@@ -11,12 +11,12 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize rootViewController;
+@synthesize mainViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -58,6 +58,28 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    
+    //[viewController setTitle:@"Title"];
+    
+    NSLog(@"change to:%d", tabBarController.tabBar.selectedItem.tag);
+    if(tabBarController.tabBar.selectedItem.tag == 1){
+        [viewController.navigationItem setTitle:@"我的马赛克"];
+    }
+}
+
+- (void)showMainView{
+    [self.rootViewController removeFromParentViewController];
+    [self.window addSubview:mainViewController.view];
+}
+
+- (void)dealloc{
+    [_window release];
+    [rootViewController release];
+    [mainViewController release];
+    [super dealloc];
 }
 
 @end

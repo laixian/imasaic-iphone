@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class RootViewController;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>{
+    UITabBarController *mainViewController;
+}
 
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet RootViewController   *rootViewController;
+@property (nonatomic, retain) IBOutlet UITabBarController *mainViewController;
+
+- (void)showMainView;
 @end
